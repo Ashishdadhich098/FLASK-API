@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Flask App</title>
+</head>
+<body>
+    <h1>Welcome to My Flask App</h1>
+    <p>Feel free to explore and use the functionalities provided.</p>
+    <form action="/operation" method="post">
+        <label for="num1">Enter Num1:</label>
+        <input type="number" name="num1" required>
+        <br>
+        <label for="num2">Enter Num2:</label>
+        <input type="number" name="num2" required>
+        <br>
+        <label for="operation">Choose Operation:</label>
+        <select name="operation" required>
+            <option value="add">Addition</option>
+            <option value="multiply">Multiplication</option>
+            <option value="division">Division</option>
+            <option value="subtract">Subtraction</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
